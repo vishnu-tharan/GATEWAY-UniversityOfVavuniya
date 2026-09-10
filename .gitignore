@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-mobile/
+.expo/
+.npm-cache/
+.test-mongodb/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+test-results/
