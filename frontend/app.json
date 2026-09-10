@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Vavuniya Gateway", "slug": "vavuniya-gateway", "version": "2.0.0", "orientation": "default",
+    "userInterfaceStyle": "light", "icon": "./public/vau-logo.png",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "lk.ac.vau.gateway" },
+    "android": { "package": "lk.ac.vau.gateway" },
+    "web": { "bundler": "metro", "favicon": "./public/vau-logo.png" },
+    "plugins": ["expo-secure-store", ["expo-camera", { "cameraPermission": "Allow Gateway to scan staff passes.", "recordAudioAndroid": false }]]
+  }
+}

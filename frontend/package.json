@@ -1,0 +1,48 @@
+{
+  "name": "vavuniya-gateway",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "start": "expo start",
+    "dev": "expo start --web",
+    "web": "expo start --web",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "build": "expo export --platform web",
+    "build:mobile": "expo export --platform android --platform ios --output-dir dist-mobile",
+    "lint": "eslint App.jsx src index.js"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~55.0.12",
+    "@expo/vector-icons": "^15.0.2",
+    "expo": "~55.0.31",
+    "expo-camera": "~55.0.23",
+    "expo-print": "~55.0.19",
+    "expo-secure-store": "~55.0.18",
+    "expo-sharing": "~55.0.24",
+    "expo-status-bar": "~55.0.6",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.10",
+    "react-native-qrcode-svg": "^6.3.21",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-svg": "15.15.3",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^16.5.0"
+  },
+  "main": "index.js",
+  "overrides": {
+    "xcode": {
+      "uuid": "^11.1.1"
+    }
+  }
+}
